@@ -1,4 +1,5 @@
 FROM php:7.4.30-apache
+LABEL org.opencontainers.image.source https://github.com/didilesmana/php74-apache-docker
 
 # Download installer php extentions | Thanks to https://github.com/mlocati
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
